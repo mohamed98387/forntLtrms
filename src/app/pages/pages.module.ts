@@ -35,7 +35,7 @@ import { EditVehiculeComponent } from "./callaborateurs_Ex/vehicule/edit-vehicul
 import { AddPlantSectionComponent } from "./callaborateurs_interne/plant_section/add-plant-section/add-plant-section.component";
 import { PlantSectionListComponent } from "./callaborateurs_interne/plant_section/plant-section-list/plant-section-list.component";
 import { EditPlantSectionComponent } from "./callaborateurs_interne/plant_section/edit-plant-section/edit-plant-section.component";
-import { HebdomadaireComponent } from './Planification/hebdomadaire/hebdomadaire.component';
+import { HebdomadaireComponent } from "./Planification/hebdomadaire/hebdomadaire.component";
 
 // import { UserComponent } from './administration/user-list/user-list.component';
 // import { ListUserComponent } from './Administration/User/list-user-list/list-user-list.component';

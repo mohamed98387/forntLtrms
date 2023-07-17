@@ -48,6 +48,8 @@ function matches(tables: Table, term: string, pipe: PipeTransform) {
     tables.email.toLowerCase().includes(term) ||
     tables.password.toLowerCase().includes(term) ||
     tables.role.toLowerCase().includes(term) ||
+    tables.city.toLowerCase().includes(term) ||
+    tables.phone.toLowerCase().includes(term) ||
     tables.organization.toLowerCase().includes(term)
   );
 }

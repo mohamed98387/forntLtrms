@@ -5,6 +5,8 @@ export interface Table {
   email: string;
   password: string;
   role: string;
+  phone: string;
+  city: string;
   organization: string;
 }
 

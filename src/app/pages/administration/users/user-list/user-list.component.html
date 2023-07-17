@@ -100,6 +100,9 @@
                   <th sortable="login" (sort)="onSort($event)">Login</th>
                   <th sortable="email" (sort)="onSort($event)">Email</th>
                   <th sortable="password" (sort)="onSort($event)">Password</th>
+                  <th sortable="phone" (sort)="onSort($event)">Phone</th>
+                  <th sortable="city" (sort)="onSort($event)">City</th>
+
                   <th sortable="role" (sort)="onSort($event)">Rôle</th>
                   <th sortable="organization" (sort)="onSort($event)">
                     Organisation
@@ -131,6 +134,18 @@
                   <td>
                     <ngb-highlight
                       [result]="table.password"
+                      [term]="service.searchTerm"
+                    ></ngb-highlight>
+                  </td>
+                  <td>
+                    <ngb-highlight
+                      [result]="table.phone"
+                      [term]="service.searchTerm"
+                    ></ngb-highlight>
+                  </td>
+                  <td>
+                    <ngb-highlight
+                      [result]="table.city"
                       [term]="service.searchTerm"
                     ></ngb-highlight>
                   </td>
